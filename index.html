@@ -8,19 +8,60 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<p>change1</p>
-    <!--
+    <h1 id="title">
+     Festus and Yosief 
+    </h1>
+    <div id="description">
+      <p>
+        This is a survey form.
+      </p>
+    </div>
+    <form id="survey-form">
+      <label for="name" id="name">Name:</label>
+      <input type="text" id="name-label" name="name" placeholder="Enter Name" required><br>
 
-    Hello Camper!
+      <label for="email" id="email">Email:</label>
+      <input type="email" id="email-label" name="email" placeholder="Enter Email" required><br>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
 
-    - The freeCodeCamp Team
+      <label for="number" id="number">Age:</label>
+      <input type="number" id="number-label" name="number"  min="1" max="100" placeholder="Enter Age" required><br>
 
-    -->
+
+      <label for="country" >Where Do You Come From?:</label><br>
+      <select name="country" id="dropdown"> 
+        <option value="Country">Select Country</option>
+        <option value="Ghana">Ghana</option>
+        <option value="Ethiopia">Ethiopia</option>
+        <option value="Canada">Canada</option>
+      </select><br>
+
+      <p>Please select your favorite Genre of Song:</p>
+  <input type="radio" name="fav_song" value="R&B">
+  <label for="R&B">R&B</label><br>
+  <input type="radio" name="fav_song" value="HIP HOP">
+  <label for="HIP HOP">HIP HOP</label><br>
+
+  <label for="fav_sport" >Which of the following sport is your Favorite?:</label><br>
+      <select name="fav_sport" id="dropdown"> 
+        <option value="fav_sport">Select Sport</option>
+        <option value="Football">Football</option>
+        <option value="Basketball">Basketball</option>
+      </select><br>
+      <p>Who are your friends? (check all that apply)</p>
+    <input type="checkbox"  name="friend" value="Mike">
+  <label for="friend"> Mike</label><br>
+  <input type="checkbox" name="friend2" value="Josh">
+  <label for="friend2"> Josh</label><br>
+
+
+  <p>Any Comment</p>
+  <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter text here...">
+    </textarea><br>
+
+    
+      <input type="submit" value="submit">
+    </form>
     <script  src="js/index.js"></script>
   </body>
 </html>
