@@ -1,6 +1,9 @@
 body{
-    backgroud:lightblue;
-
+    background-color: rgb(252, 249, 191);
+    text-align: center;
+    font-size: large;
+    border-width: 1px;
+    font-size: medium;
 }
 /*.contact-form{
     max-width 350px;
@@ -10,10 +13,56 @@ body{
     padding:20px;
 }*/
 input [type=text], select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid;
+}
+#title {
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+    
+    
+}
+#description {
+    font-size: 60px;
+
+}
+#survey-form{
+    font-size: 30px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0px;
     display: inline-block;
     border: 1px solid;
 }
+#name{
+    
+}
+#name-label{
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid;
+}
+#email-label{
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid;
 
+}
+#number-label{
+    text-align: center;
+    width: 50%;
+    padding: 5px 20px;
+    margin: 0px 0px;
+    display: inline-block;
+    border: 1px solid;
+}
